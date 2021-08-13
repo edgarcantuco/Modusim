@@ -5,7 +5,6 @@ from VentanaPrincipal import Ui_WinMain
 import os
 from xml.dom import minidom
 
-
 class Splash(QtWidgets.QMainWindow):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
