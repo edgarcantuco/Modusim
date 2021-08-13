@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parámetros>
+    <Información>
+        <Nombre>Separador</Nombre>
+        <Autor>Edgar Alejandro Cantú Costilla</Autor>
+        <Versión>1.0.0</Versión>
+    </Información>
+
+    <Configuración>
+        <LimitarInputs>True</LimitarInputs>
+        <LimitarOutputs>True</LimitarOutputs>
+        <NumInputs>5</NumInputs>
+        <NumOutputs>2</NumOutputs>
+    </Configuración>
+
+    <Parametro Nombre = "Fraccion" Tipo="Textbox" Label="Fracción de la primera sustancia" Default="0.5"></Parametro>
+    <Parametro Nombre = "Prueba" Tipo="Slider" Label="Prueba 1" Default="0.5" Min="0" Max="1" Step="0.1"></Parametro>
+    <Parametro Nombre = "PruebaCB" Tipo="ComboBox" Label="ComboBox-Prueba" Default="1" Opciones="Opción 1, Opción 2, Opción 3"></Parametro>
+    <Parametro Nombre = "PruebaBoton" Tipo="Botón" Label="Prueba Botón" Default="1" Texto="Texto del botón" Funcion="funcionPrueba"></Parametro>
+</Parámetros>
